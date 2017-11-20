@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TemplateSoft</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	<div id='navigation' class='.u-full-width'>
+  		<%- if current_user %>
+			  Hey <%= current_user.email %>
+			<% end %>
+  	</div>
+  	<div class="container" style="margin-top: 50px">
+  	<div class="row">
+    <%= yield %>
+  	</div>
+  	</div>
+  </body>
+</html>
