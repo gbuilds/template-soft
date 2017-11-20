@@ -6,8 +6,17 @@ Boilerplate stuff for software projects. Includes so far:
 * Skeleton http://getskeleton.com/
 * Rails 5! Yeah!
 
+### Setup
 
-Things you may want to cover:
+```
+git clone https://github.com/gbuilds/template-soft.git some_project_name
+rake db:migrate
+rails s
+```
+
+App is running on localhost:3000 and has a devise login at /users/sign_up.
+
+### Things you may want to cover later:
 
 * Ruby version
 
