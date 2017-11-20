@@ -1,7 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Boilerplate stuff for software projects. Includes so far:
+
+* Devise https://github.com/plataformatec/devise
+* Skeleton http://getskeleton.com/
+* Rails 5! Yeah!
+
 
 Things you may want to cover:
 
